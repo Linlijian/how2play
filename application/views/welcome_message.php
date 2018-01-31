@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h1 class="display-2 d-none d-md-block">How 2 Play</h1>
 			<h1 class="display-4 d-block d-md-none">Conference Pingendo</h1>
 			<p class="" style="">How to play, use, install and win</p>
-			<a href="#register" class="btn btn-lg mt-4 btn-outline-light">In Site</a> </div>
+			<a href="<?php echo site_url("homepage")?>" class="btn btn-lg mt-4 btn-outline-light">In Site</a> </div>
 		</div>
 		</div>
 	</div>
