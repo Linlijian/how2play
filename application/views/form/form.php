@@ -40,7 +40,7 @@
       </div>
     </div>
     <br>
-    <img class="size" src="<?php echo base_url()?>img/topicLogo.jpg" alt="">
+    <img class="size" src="<?php echo base_url()?>img/topic.png" alt="">
     <div class="ui text container">
         <br>
       <h1 class="ui inverted header">
@@ -155,8 +155,8 @@
         </div>
         <div class="ui two column grid">
             <div class="five wide column">
-                <h2>user</h2>
-                <img class="size" src="<?php echo base_url()?>img/game4.jpg" alt="">
+                <h2>Admin_LOL</h2>
+                <img class="size" src="<?php echo base_url()?>img/user.png" alt="">
             </div>
             <div class="eleven wide column">
                 <h2>topic</h2>
@@ -215,6 +215,18 @@
                 <img class="size" src="<?php echo base_url()?>img/a/036.gif" alt="">
             </div>
         </div>
+        <?php 
+            foreach($data_result->result_array() as $row){
+                echo "<div class='ui two column grid'>
+                <div class='five wide column'>
+                    <h3>นายหล่อ</h3>
+                </div>
+                <div class='eleven wide column'>
+                    <h3 class='lett'>".$row['content']."</h3>
+                </div>
+            </div>";
+            }
+        ?>
     <form action="<?php echo site_url('form/insert')?>" method="post">
         <div class="ui one column grid">
             <div class="sixteen wide column">
