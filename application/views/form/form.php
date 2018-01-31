@@ -215,19 +215,22 @@
                 <img class="size" src="<?php echo base_url()?>img/a/036.gif" alt="">
             </div>
         </div>
+    <form action="<?php echo site_url('form/insert')?>" method="post">
         <div class="ui one column grid">
             <div class="sixteen wide column">
                 <h2>Comment</h2>
                 <div class="ui form">
-                    <div class="field">
-                        <label>Text</label>
-                        <textarea></textarea>
+                    <div class="field"> 
+                        <textarea name="comment"></textarea>
+                        <div class="ui submit button">
+                        <input type="submit" value="Submit">
+                        </div>
+                        <div class="ui submit button">Exit</div>
                     </div>
-                    <div class="ui submit button">Submit</div>
-                    <div class="ui submit button">Exit</div>
                 </div>
             </div>
         </div>
+    </form>
     </div>
 </body>
 </html>
