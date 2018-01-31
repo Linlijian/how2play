@@ -8,6 +8,9 @@
         .size{
             width : 80%
         }
+        .letf{
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -197,10 +200,32 @@
         </div>
         <div class="ui two column grid">
             <div class="five wide column">
-                four wide column
+                <h2>Member</h2>
             </div>
             <div class="eleven wide column">
-                eight wide column
+                <h2>Comment</h2>
+            </div>
+        </div>
+        <div class="ui two column grid">
+            <div class="five wide column">
+                <h3>นายหล่อ</h3>
+            </div>
+            <div class="eleven wide column">
+                <h3 class="letf">ไม่เข้าใจนายเลย ภาษาบ้าไรเฮ้ย</h3>
+                <img class="size" src="<?php echo base_url()?>img/a/036.gif" alt="">
+            </div>
+        </div>
+        <div class="ui one column grid">
+            <div class="sixteen wide column">
+                <h2>Comment</h2>
+                <div class="ui form">
+                    <div class="field">
+                        <label>Text</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="ui submit button">Submit</div>
+                    <div class="ui submit button">Exit</div>
+                </div>
             </div>
         </div>
     </div>
