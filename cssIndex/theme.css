@@ -5977,6 +5977,9 @@ a.text-success:hover, a.text-success:focus {
 .text-info {
   color: #ccc !important; }
 
+.text-bg {
+    background-color: rgb(24, 157, 197) !important; }
+
 a.text-info:hover, a.text-info:focus {
   color: #b3b3b3 !important; }
 
@@ -6122,15 +6125,7 @@ body > * {
   color: white;
   background-size: cover;
   background-position: center; }
-  .section-aquamarine:before {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%); }
-
+  
 .section-dark {
   position: relative;
   color: #f3f3f3;
