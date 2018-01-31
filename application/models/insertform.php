@@ -5,7 +5,7 @@ class Insertform extends CI_Model {
 
     public function insertcomment($commnet)
 	{
-        $sql = "INSERT INTO comment (id_comment,content) VALUE ('','".$commnet."');";
+        $sql = "INSERT INTO comment (id_comment,content,post_id) VALUE ('NULL','".$commnet."',1);";
         $result = $this->db->query($sql);
         return $result;
     }
