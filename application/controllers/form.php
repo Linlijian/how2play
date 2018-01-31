@@ -6,6 +6,4 @@ class form extends CI_Controller {
 	{
 		$this->load->view('form/form');
     }
-    
-
 }
