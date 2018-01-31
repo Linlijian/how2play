@@ -1,13 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class inserform extends CI_Controller {
+class Inserform extends CI_Controller {
 
     public function insertcomment($commnet)
 	{
         $sql = "INSERT INTO comment (id_comment,content) VALUE (1,'".$commnet."');";
-        $result = $this->db->query($sql);
-        return $result;
+        //$result = $this->db->query($sql);
+        echo "a";
+        //return $result;
     }
 
 

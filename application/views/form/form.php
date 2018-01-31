@@ -222,10 +222,8 @@
                 <div class="ui form">
                     <div class="field"> 
                         <textarea name="comment"></textarea>
-                        <div class="ui submit button">
-                        <input type="submit" value="Submit">
-                        </div>
-                        <div class="ui submit button">Exit</div>
+                        <br><br>
+                        <div><input class="medium ui button" type="submit" value="Submit"></div>
                     </div>
                 </div>
             </div>
