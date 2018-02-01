@@ -45,7 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <tr>
       <td>
         <h4 class="ui image header">
-          <img src="assets/images/wireframe/square-image.png" class="ui mini rounded image">
+          <img src="<?php echo base_url(); ?>img/platinum.png" class="ui mini rounded image">
           <div class="content">
             Platinum
             <div class="sub header">Human Resources
@@ -59,21 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <tr>
       <td>
         <h4 class="ui image header">
-          <img src="assets/images/wireframe/square-image.png" class="ui mini rounded image">
-          <div class="content">
-            Gold
-            <div class="sub header">Fabric Design
-          </div>
-        </div>
-      </h4></td>
-      <td>
-        $xxx
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <h4 class="ui image header">
-          <img src="assets/images/wireframe/square-image.png" class="ui mini rounded image">
+          <img src="<?php echo base_url(); ?>img/vip.png" class="ui mini rounded image">
           <div class="content">
             VIP
             <div class="sub header">Entertainment
@@ -87,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <tr>
       <td>
         <h4 class="ui image header">
-          <img src="assets/images/wireframe/square-image.png" class="ui mini rounded image">
+          <img src="<?php echo base_url(); ?>img/free.jpg" class="ui mini rounded image">
           <div class="content">
             Free
             <div class="sub header">Executive

@@ -211,8 +211,8 @@
                 <h3>นายหล่อ</h3>
             </div>
             <div class="eleven wide column">
-                <h3 class="letf">ไม่เข้าใจนายเลย ภาษาบ้าไรเฮ้ย</h3>
-                <img class="size" src="<?php echo base_url()?>img/a/036.gif" alt="">
+                <h3 class="letf">ไม่เข้าใจนายเลย ภาษาบ้าไรเฮ้ย
+                <img class="" src="<?php echo base_url()?>img/a/036.gif" alt="" height="42" width="42"></h3>
             </div>
         </div>
         <?php 
@@ -222,7 +222,7 @@
                     <h3>นายหล่อ</h3>
                 </div>
                 <div class='eleven wide column'>
-                    <h3 class='lett'>".$row['content']."</h3>
+                    <h3 class='letf'>".$row['content']."</h3>
                 </div>
             </div>";
             }
